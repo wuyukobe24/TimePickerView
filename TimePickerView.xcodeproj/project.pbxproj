@@ -15,6 +15,10 @@
 		F1F961751F300FCB0042FDC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F961731F300FCB0042FDC5 /* LaunchScreen.storyboard */; };
 		F1F961801F300FCB0042FDC5 /* TimePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9617F1F300FCB0042FDC5 /* TimePickerViewTests.m */; };
 		F1F9618B1F300FCB0042FDC5 /* TimePickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9618A1F300FCB0042FDC5 /* TimePickerViewUITests.m */; };
+		F1F9619A1F3010980042FDC5 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961991F3010980042FDC5 /* BaseView.m */; };
+		F1F9619D1F3010A10042FDC5 /* TimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9619C1F3010A10042FDC5 /* TimePickerView.m */; };
+		F1F961A01F3010AE0042FDC5 /* SelectDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F9619E1F3010AE0042FDC5 /* SelectDateModel.m */; };
+		F1F961A31F30240C0042FDC5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F961A21F30240C0042FDC5 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,8 @@
 		F1F961661F300FCB0042FDC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1F961681F300FCB0042FDC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1F961691F300FCB0042FDC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1F9616B1F300FCB0042FDC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1F9616C1F300FCB0042FDC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1F9616B1F300FCB0042FDC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		F1F9616C1F300FCB0042FDC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		F1F9616F1F300FCB0042FDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1F961711F300FCB0042FDC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1F961741F300FCB0042FDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		F1F961861F300FCB0042FDC5 /* TimePickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F9618A1F300FCB0042FDC5 /* TimePickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimePickerViewUITests.m; sourceTree = "<group>"; };
 		F1F9618C1F300FCB0042FDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F961981F3010980042FDC5 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseView.h; path = ../BaseView.h; sourceTree = "<group>"; };
+		F1F961991F3010980042FDC5 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseView.m; path = ../BaseView.m; sourceTree = "<group>"; };
+		F1F9619B1F3010A10042FDC5 /* TimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimePickerView.h; path = ../TimePickerView.h; sourceTree = "<group>"; };
+		F1F9619C1F3010A10042FDC5 /* TimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimePickerView.m; path = ../TimePickerView.m; sourceTree = "<group>"; };
+		F1F9619E1F3010AE0042FDC5 /* SelectDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectDateModel.m; path = ../SelectDateModel.m; sourceTree = "<group>"; };
+		F1F9619F1F3010AE0042FDC5 /* SelectDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectDateModel.h; path = ../SelectDateModel.h; sourceTree = "<group>"; };
+		F1F961A11F30240C0042FDC5 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
+		F1F961A21F30240C0042FDC5 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,9 @@
 			children = (
 				F1F961681F300FCB0042FDC5 /* AppDelegate.h */,
 				F1F961691F300FCB0042FDC5 /* AppDelegate.m */,
-				F1F9616B1F300FCB0042FDC5 /* ViewController.h */,
-				F1F9616C1F300FCB0042FDC5 /* ViewController.m */,
+				F1F961A61F3028930042FDC5 /* Controller */,
+				F1F961A51F30288C0042FDC5 /* View */,
+				F1F961A41F3028810042FDC5 /* Model */,
 				F1F9616E1F300FCB0042FDC5 /* Main.storyboard */,
 				F1F961711F300FCB0042FDC5 /* Assets.xcassets */,
 				F1F961731F300FCB0042FDC5 /* LaunchScreen.storyboard */,
@@ -138,6 +151,37 @@
 				F1F9618C1F300FCB0042FDC5 /* Info.plist */,
 			);
 			path = TimePickerViewUITests;
+			sourceTree = "<group>";
+		};
+		F1F961A41F3028810042FDC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1F9619F1F3010AE0042FDC5 /* SelectDateModel.h */,
+				F1F9619E1F3010AE0042FDC5 /* SelectDateModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1F961A51F30288C0042FDC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1F961981F3010980042FDC5 /* BaseView.h */,
+				F1F961991F3010980042FDC5 /* BaseView.m */,
+				F1F9619B1F3010A10042FDC5 /* TimePickerView.h */,
+				F1F9619C1F3010A10042FDC5 /* TimePickerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1F961A61F3028930042FDC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1F961A11F30240C0042FDC5 /* BaseViewController.h */,
+				F1F961A21F30240C0042FDC5 /* BaseViewController.m */,
+				F1F9616B1F300FCB0042FDC5 /* ViewController.h */,
+				F1F9616C1F300FCB0042FDC5 /* ViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F9619D1F3010A10042FDC5 /* TimePickerView.m in Sources */,
 				F1F9616D1F300FCB0042FDC5 /* ViewController.m in Sources */,
 				F1F9616A1F300FCB0042FDC5 /* AppDelegate.m in Sources */,
+				F1F961A01F3010AE0042FDC5 /* SelectDateModel.m in Sources */,
 				F1F961671F300FCB0042FDC5 /* main.m in Sources */,
+				F1F961A31F30240C0042FDC5 /* BaseViewController.m in Sources */,
+				F1F9619A1F3010980042FDC5 /* BaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
